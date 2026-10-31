@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muaz Jr — independent football and eFootball video editor. Explore original edits and follow the creator." />
+  <title>Muaz Jr | Football Edits</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090b10; --panel:#121722; --text:#f4f6fb; --muted:#aab3c2; --accent:#e63946; --line:#273142; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:radial-gradient(circle at 80% 0%,#252033 0,transparent 32%),var(--bg); color:var(--text); line-height:1.6; }
+    a { color:inherit; }
+    .wrap { width:min(100% - 36px,1000px); margin:auto; }
+    header { padding:22px 0; display:flex; justify-content:space-between; align-items:center; gap:16px; border-bottom:1px solid var(--line); }
+    .brand { font-weight:900; letter-spacing:1.5px; }
+    .brand span { color:var(--accent); }
+    nav { display:flex; gap:18px; flex-wrap:wrap; }
+    nav a { color:var(--muted); text-decoration:none; font-size:14px; }
+    nav a:hover { color:white; }
+    .hero { padding:90px 0 72px; text-align:center; }
+    .tag { display:inline-block; border:1px solid #53303a; color:#ff9aa3; border-radius:999px; padding:6px 13px; font-size:12px; letter-spacing:1px; text-transform:uppercase; }
+    h1 { font-size:clamp(42px,9vw,82px); line-height:1.02; margin:20px 0 14px; letter-spacing:-3px; }
+    h1 span { color:var(--accent); }
+    .lead { max-width:620px; margin:0 auto; color:var(--muted); font-size:18px; }
+    .actions { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; padding:12px 19px; border-radius:10px; background:var(--accent); color:white; text-decoration:none; font-weight:700; }
+    .btn.secondary { background:transparent; border:1px solid var(--line); }
+    section { padding:34px 0 48px; }
+    h2 { font-size:27px; margin:0 0 16px; }
+    .about, .card { background:rgba(18,23,34,.9); border:1px solid var(--line); border-radius:17px; padding:24px; }
+    .about p { color:var(--muted); margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .tile { min-height:150px; display:flex; flex-direction:column; justify-content:end; background:linear-gradient(145deg,#222b3b,#121722 70%); border:1px solid var(--line); border-radius:15px; padding:18px; }
+    .tile strong { font-size:18px; }
+    .tile small { color:var(--muted); }
+    .note { color:var(--muted); font-size:13px; margin-top:14px; }
+    .socials { display:flex; flex-wrap:wrap; gap:12px; }
+    .socials a { text-decoration:none; border:1px solid var(--line); background:var(--panel); padding:12px 16px; border-radius:10px; }
+    footer { border-top:1px solid var(--line); padding:22px 0 32px; color:var(--muted); font-size:13px; }
+    @media(max-width:680px) { header { align-items:flex-start; flex-direction:column; } .grid { grid-template-columns:1fr; } .hero { padding:65px 0 50px; } h1 { letter-spacing:-2px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">MUAZ <span>JR</span> ✦</div>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">My work</a><a href="#follow">Follow</a></nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="tag">Independent football creator</div>
+        <h1>MUAZ <span>JR</span></h1>
+        <p class="lead">Football edits • eFootball • Creative video editing</p>
+        <div class="actions">
+          <a class="btn" href="#work">Explore my work</a>
+          <a class="btn secondary" href="#follow">Follow my pages</a>
+        </div>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <div class="about"><p>I'm Muaz Jr, an independent football video editor creating original football and eFootball edits. I use CapCut to develop my own editing style and share my passion for the game.</p></div>
+      </section>
+      <section id="work">
+        <h2>My work</h2>
+        <div class="grid">
+          <div class="tile"><strong>Football edits</strong><small>Original video creations</small></div>
+          <div class="tile"><strong>eFootball</strong><small>Gaming moments and edits</small></div>
+          <div class="tile"><strong>Creative editing</strong><small>Transitions, effects and storytelling</small></div>
+        </div>
+        <p class="note">Add links or embeds to your own public videos here when you're ready. Only feature work you created or have permission to use.</p>
+      </section>
+      <section id="follow">
+        <h2>Follow Muaz Jr</h2>
+        <div class="socials">
+          <a href="https://www.tiktok.com/@muaz_jr64" target="_blank" rel="noopener noreferrer">TikTok · @muaz_jr64</a>
+          <a href="https://www.instagram.com/muaz_jr64/" target="_blank" rel="noopener noreferrer">Instagram · @muaz_jr64</a>
+          <a href="https://www.youtube.com/@Muazabdi64" target="_blank" rel="noopener noreferrer">YouTube · @Muazabdi64</a>
+        </div>
+      </section>
+    </main>
+    <footer>© <span id="year">2026</span> Muaz Jr. Independent creator. Not affiliated with any football club or league.</footer>
+  </div>
+</body>
+</html>
